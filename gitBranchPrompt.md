@@ -2,6 +2,18 @@
 
 For script [gitBranchPrompt.ps1](https://github.com/davidsteimle/powershellExamples/blob/master/gitBranchPrompt.ps1)
 
+This will produce a powershell prompt for a repository like:
+
+```
+PS C:\Users\David\bin\sandbox (main)>
+```
+
+And a non-repository like:
+
+```
+PS C:\Users\David\bin>
+```
+
 -----
 
 First, determine if the current location is a repositpory by looking for ``.git``
