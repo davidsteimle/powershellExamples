@@ -1,5 +1,9 @@
 # Git Branch in Your Prompt
 
+For script [gitBranchPrompt.ps1](https://github.com/davidsteimle/powershellExamples/blob/master/gitBranchPrompt.ps1)
+
+-----
+
 First, determine if the current location is a repositpory by looking for ``.git``
 
 * ``Get-Item``
